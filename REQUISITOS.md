@@ -2,7 +2,7 @@ LIGHTHOUSE | Terceira etapa do processo seletivo - Desafio técnico
 
 ------
 
-# REQUISITOS PARA EXECUÇÃO DO ARQUIVO
+# REQUISITOS PARA EXECUÇÃO DO ARQUIVO "LH_CD_WESLLEYBITENCOURT_RELATÓRIO.ipynb"
 
 ------
 
@@ -19,14 +19,19 @@ ou
 # BIBLIOTECAS
 
 # Para o relatório:
-1. numpy
-2. pandas
-3. matplotlib.pyplot
-4. seaborn
+1. numpy - Operações de Dados e Arrays
+2. pandas - Leitura de DataFrames
+3. matplotlib.pyplot - Graficos e Visualização
+4. seaborn - Graficos e Visualização
 
 ------
 
-# Para o modelo preditivo random forest (RF):
+# Para os modelos preditivos:
+1. scikit-learn - normalização, padronização e tratamento
+
+------
+
+# Para execução do código do modelo preditivo random forest (RF):
 1. import numpy as np
 2. import pandas as pd
 3. from sklearn.model_selection import train_test_split
@@ -37,7 +42,7 @@ ou
 
 ------
 
-# Para o modelo preditivo regressão linear simples (RL):
+# Para execução do código do modelo preditivo regressão linear simples (RL):
 1. import numpy as np
 2. import pandas as pd
 3. from sklearn.model_selection import train_test_split
@@ -47,4 +52,30 @@ ou
 
 ------
 
+# Para importar o modelo no formato .pkl:
+1. import pickle - 
+2. import os - Confirmar a presença do arquivo no diretório
+3. from google.colab import files - Download do Arquivo
 
+------
+
+# Para execução do arquivo .pkl:
+1. verifique as dependências
+2. instalação:
+- Utilize o Python global do sistema - Não recomendado
+ou
+- Crie um ambiente virtual - Opcional, mas altamente recomendado
+ou
+- Crie um Container - Evita os problemas relacionados ao Python global
+3. importar as bibliotecas utilizadas no modelo
+4. importar pickle ou joblib - carregar o arquivo .pkl
+5. teste o modelo
+
+------
+
+# Possíveis erros
+- ModuleNotFoundError - Ambiente não possui as bibliotecas necessárias
+- AttributeError - Incompatibilidade de versão
+- PickleError - Arquivo corrompido
+
+------
