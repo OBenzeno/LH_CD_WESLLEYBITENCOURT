@@ -26,9 +26,9 @@ OBS.: O Arquivo relatório possui uma cópia do modelo de previsão, apenas para
 ------
 
 # TESTES REALIZADOS NO MODELO
-- MAE
-- MSE
-- R²
+- MAE (Mean Absolute Error) - Erro Absoluto Médio
+- MSE (Mean Squared Error) - Erro Quadrático Médio
+- R² (Coeficiente de Determinação)
 
 ------
 
