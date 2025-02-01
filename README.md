@@ -9,21 +9,40 @@ Inicialmente a ideia era de se usar um modelo de regressão linear simples para 
 ------
 
 # LEGENDA 
-1. LH_CD_WESLLEYBITENCOURT_RELATÓRIO - Relatório
-2. LH_CD_WESLLEYBITENCOURT_RF - Modelo de Machine Learning para teste
+1. LH_CD_WESLLEYBITENCOURT.pkl - Modelo de Machine Learning Treinado
+2. LH_CD_WESLLEYBITENCOURT_RELATÓRIO.ipynb - Relatório
+3. LH_CD_WESLLEYBITENCOURT_MODELO_RF.ipynb - Código do Modelo
 
 # OBS.: O Arquivo relatório possui uma cópia dos modelos de previsão, apenas para fins de teste durante a realização do Desafio.
 # OBS.2: Para avaliar o relatório é necessário executar as células de código em sequência, haja vista que foi feito utilizando o Google Colab.
 
 ------
 
-# PASSO A PASSO
-1. Para executar o arquivo com o modelo é necessário o uso de um notebook, seja Jupypter Notebook, Jupyter Lab ou Google Colab. 
-2. Após aberto o arquivo, é necessário executar a célula com as bibliotecas que serão importadas.
-3. Em seguida, deve ser executada a célula para importar o DataFrame de testes.
-4. Após a importação das bibliotecas e do DataFrame, é necessário executar as duas células seguintes para realizar o treinamento do modelo e exibir os resultados de avaliação, como MAE, MSE e R².
-5. Feito isso, é só executar a célula de código indicada como "Teste 1", a qual vai importar os dados listados no desafio como um novo DataFrame assim realizando a previsão.
-6. Após executado o primeiro modelo, se necessário, realizar o "Teste 2" com o segundo modelo, apenas para fins comparativos.
+# TESTES REALIZADOS NO MODELO
+- MAE
+- MSE
+- R²
 
 ------
 
+# PASSO A PASSO
+# Para execução do arquivo .pkl:
+1. verifique as dependências
+2. instalação:
+- Utilize o Python global do sistema - Não recomendado
+ou
+- Crie um ambiente virtual - Opcional, mas altamente recomendado
+ou
+- Crie um Container - Evita os problemas relacionados ao Python global
+3. importar as bibliotecas utilizadas no modelo
+4. importar pickle ou joblib - carregar o arquivo .pkl
+5. teste o modelo
+
+------
+
+# Possíveis erros
+- ModuleNotFoundError - Ambiente não possui as bibliotecas necessárias
+- AttributeError - Incompatibilidade de versão
+- PickleError - Arquivo corrompido
+
+------
