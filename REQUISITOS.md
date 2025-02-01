@@ -58,24 +58,3 @@ ou
 3. from google.colab import files - Download do Arquivo
 
 ------
-
-# Para execução do arquivo .pkl:
-1. verifique as dependências
-2. instalação:
-- Utilize o Python global do sistema - Não recomendado
-ou
-- Crie um ambiente virtual - Opcional, mas altamente recomendado
-ou
-- Crie um Container - Evita os problemas relacionados ao Python global
-3. importar as bibliotecas utilizadas no modelo
-4. importar pickle ou joblib - carregar o arquivo .pkl
-5. teste o modelo
-
-------
-
-# Possíveis erros
-- ModuleNotFoundError - Ambiente não possui as bibliotecas necessárias
-- AttributeError - Incompatibilidade de versão
-- PickleError - Arquivo corrompido
-
-------
