@@ -53,7 +53,7 @@ ou
 ------
 
 # Para importar o modelo no formato .pkl:
-1. import pickle - 
+1. import pickle - Salvar o modelo no formato .pkl
 2. import os - Confirmar a presença do arquivo no diretório
 3. from google.colab import files - Download do Arquivo
 
