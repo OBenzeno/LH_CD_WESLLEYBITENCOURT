@@ -36,9 +36,9 @@ OBS.: O Arquivo relatório possui uma cópia do modelo de previsão, apenas para
 # Para execução do arquivo .pkl:
 1. verifique as dependências
 2. instalação:
-- Utilize o Python global do sistema - Não recomendado
+- Utilize o Python global do sistema - Não recomendado <br>
 ou
-- Crie um ambiente virtual - Opcional, mas altamente recomendado
+- Crie um ambiente virtual - Opcional, mas altamente recomendado<br>
 ou
 - Crie um Container - Evita os problemas relacionados ao Python global
 3. importar as bibliotecas utilizadas no modelo
