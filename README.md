@@ -5,17 +5,21 @@ LIGHTHOUSE | Terceira etapa do processo seletivo - Desafio técnico
 
 # INTRODUÇÃO
 Inicialmente a ideia era de se usar um modelo de regressão linear simples para prever preços futuros. Porém, como ainda existem outliers que passaram a filtragem, é necessário o uso de um modelo mais robusto que não se deixe ser afetado por outliers. Como não tenho tanta experiência com o uso de machine learning, fiz um modelo de regressão random forest por ser mais simples. Esse modelo é mais robusto que o modelo de regressão linear simples, porém ele ainda é falho a outliers. Portanto os resultados podem não ser os mais confiáveis, sendo a necessidade de se utiliar um modelo com maior robustez a outliers. Ao fim do arquivo possui um modelo de regressão linear simples para fins comparativos, a fim de confirmar a afirmação quanto a robustez, porém a variação de resultados não é considerada tão significativa, confirmando a necessidade de um tratamento melhor dos dados.
+------
+
+# LEGENDA
+# Pasta Notebooks é Subdividida:
+1. Data - Dataset original e Dataset filtrado para testes
+2. Models - Notebook com Modelo preditivo
 
 ------
 
-# LEGENDA 
+# Arquivos Principais
 1. LH_CD_WESLLEYBITENCOURT.pkl - Modelo de Machine Learning Treinado
 2. LH_CD_WESLLEYBITENCOURT_RELATÓRIO.ipynb - Relatório
 3. LH_CD_WESLLEYBITENCOURT_MODELO_RF.ipynb - Código do Modelo
 
-# OBS.: O Arquivo relatório possui uma cópia dos modelos de previsão, apenas para fins de teste durante a realização do Desafio.
-# OBS.2: Para avaliar o relatório é necessário executar as células de código em sequência, haja vista que foi feito utilizando o Google Colab.
-
+OBS.: O Arquivo relatório possui uma cópia do modelo de previsão, apenas para fins de teste durante a realização do Desafio.
 ------
 
 # TESTES REALIZADOS NO MODELO
