@@ -9,8 +9,10 @@ LIGHTHOUSE | Terceira etapa do processo seletivo - Desafio técnico
 # VISUALIZAÇÃO
 - Python 3.12.5
 - Jupyter Notebook 7.0.8
+------
 ou
 - Jupyter Lab 4.0.11
+------
 ou 
 - Google Colab
 
